@@ -275,10 +275,6 @@ h2 {
 /* 获得奖项 */
 .jiangxiang {
 	padding: 5em 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	background-color: azure;
 	
 }
@@ -290,6 +286,10 @@ h2 {
 .img-responsive{
 	margin: 0 auto;
 	width: 50%;
+}
+.hdjx_2{
+	display: flex;
+	flex-direction: row;
 }
 /* 页脚 */
 .papg{
