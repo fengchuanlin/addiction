@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/resume.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
 		<title>冯传林的个人简历</title>
 		
 	</head>
@@ -13,15 +14,16 @@
 				<img src="img/2efb4fb3833d541ea3f4591bdc773208.jpeg" >
 			</div>
 			<div class="category">
-				<a href="">资料</a>
-				<a href="">技能</a>
-				<a href="">作品</a>
-				<a href="">经历</a>
+				<a href="#ziliao">资料</a>
+				<a href="#jineng">技能</a>
+				<a href="#zuopin">作品</a>
+				<a href="#jiangxiang">奖项</a>
+				<a href="#jingli">经历</a>
 			</div>
 		</aside>
 		<div class="conten">
 			<!-- 个人资料 -->
-			<div class="container-fluid ziliao">
+			<div id="ziliao" class="container-fluid ziliao">
 				<div class="grzl">
 					<h2 class="title">
 						<img src="img/star.png" >
@@ -51,7 +53,7 @@
 			</div>
 			
 			<!-- 掌握技能 -->
-			<div class="container-fluid jineng">
+			<div id="jineng" class="container-fluid jineng">
 				<div class="zwjineng">
 					<h2 class="title">
 						<img src="img/xuex.png" >
@@ -154,7 +156,7 @@
 			</div>
 			
 			<!-- 个人作品 -->
-			<div class="container-fluid zuopin">
+			<div id="zuopin" class="container-fluid zuopin">
 				<div class="grzuopin">
 					<h2 class="title">
 						<img id="min_img" src="img/zuopin.png" >
@@ -212,8 +214,27 @@
 					</div>
 				</div>
 			</div>
+			<!-- 获得奖项 -->
+			<div class="">
+				<div id="jiangxiang" class="container-fluid jiangxiang">
+					<div class="hdjx">
+						<h2 class="title">
+							<img src="img/huojiang.png" >
+							<span>获得奖项</span>
+						</h2>
+						<div class="">
+							<div class="swiper-container">
+							  <div class="swiper-wrapper">
+							    <div class="swiper-slide"><img class="img-responsive" src="img/sandeng.png" ></div>
+							    <div class="swiper-slide"><img class="img-responsive" src="img/youxiu.JPG" ></div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- 个人经历 -->
-			<div class="container-fluid Experiences">
+			<div id="jingli" class="container-fluid Experiences">
 				<div class="grjl">
 					<h2 class="title">
 						<img src="img/jingli.png" >
@@ -253,5 +274,6 @@
 	</body>
 	<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/grjl.js" type="text/javascript" charset="utf-8"></script>
 </html>

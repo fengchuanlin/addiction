@@ -165,15 +165,14 @@ h2 {
 	background-color: #FFFFFF;
 	box-shadow: 0 4px rgba(0, 0, 0, 0.3);
 }
-.skills_icon em{
+.skills_icon .tb_html5{
 	transition: all .4s;
 }
-.skills_icon em:hover{
+.skills_icon:hover .tb_html5{
 	transform: rotate(360deg);
 }
 .skills_text {
 	text-align: center;
-
 }
 
 .skills_text h3 {
@@ -224,6 +223,7 @@ h2 {
 /* 个人经历 */
 .Experiences{
 	padding: 5em 0;
+	background: url(../img/jingli.jpg);
 	background-color: #FFFFFF;
 }
 .grjl{
@@ -272,17 +272,24 @@ h2 {
 	height: auto;
 	max-width: 100%;
 }
-
-/* 关于我 */
-.about{
-	height: 500px;
-	background-color: rosybrown;
+/* 获得奖项 */
+.jiangxiang {
+	padding: 5em 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: azure;
+	
 }
-.about_me{
+.hdjx {
 	max-width: 1000px;
-	height: 500px;
-	background-color: red;
+	padding: 0 1.25em;
+}
+
+.img-responsive{
 	margin: 0 auto;
+	width: 50%;
 }
 /* 页脚 */
 .papg{
