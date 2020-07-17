@@ -281,6 +281,7 @@ h2 {
 .hdjx {
 	max-width: 1000px;
 	padding: 0 1.25em;
+	margin: 0 auto;
 }
 
 .img-responsive{
