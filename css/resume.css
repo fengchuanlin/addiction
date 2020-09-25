@@ -173,7 +173,10 @@ h2 {
 .skills_icon .tb_html5 {
 	transition: all .4s;
 }
-
+.tb_html5 img{
+	width: 48px;
+	height: 48px;
+}
 .skills_icon:hover .tb_html5 {
 	transform: rotate(360deg);
 }
@@ -200,38 +203,67 @@ h2 {
 	margin: 0 auto;
 }
 
-.works {
-	max-width: 50%;
-	padding-left: 0;
-	padding-right: 0;
-	margin: 0 auto;
+.zuop_row {
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
-.works_a {
-	width: 95%;
-	margin: 0 auto;
+.zuop_ul {
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.zuop_ul li_fre{
+	background-color: greenyellow;
 }
 
-.works_a img {
+
+.fre {
+	font-size: 2em;
+    list-style-type: none;
+    width: 20%;
+    height: 50px;
+    background-color: #f8bd24;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 5px;
+}
+
+.cone {
+	width: 100%;
+	height: 460px;
+	display: none;
+	justify-content: center;
+}
+.cone_b{
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.works_a{
+    width: 45%;
+    padding-top: 6em;
+}
+.works_a img{
 	max-width: 97%;
 	vertical-align: middle;
 	cursor: pointer;
 	transition: all 0.3s;
 }
-
-.works_a img:hover {
-
+.works_a img:hover{
+	
 	transform: scale(1.1);
 }
-
-.works_a p {
+.works_a p{
 	font-size: 1em;
 	margin: 0 0 0px;
 	line-height: 1.8em;
 	padding: 1em 0;
 	text-align: center;
 }
-
 /* 个人经历 */
 .Experiences {
 	padding: 5em 0;
@@ -320,7 +352,7 @@ h2 {
 	color: #FFFFFF;
 	text-align: center;
 	padding: 1em 0;
-	background-color: burlywood;
+	background-color: #7b7b7b;
 }
 
 .papg a {
